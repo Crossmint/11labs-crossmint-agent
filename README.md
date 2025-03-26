@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saratoga Store Agent, powered by 11Labs & Crossmint
+
+An AI shopping assistant that helps users find products and sends them a link to complete their purchase.
+
+## Features
+
+- **AI-Powered Conversations**: Engage with an intelligent shopping assistant that understands natural language
+- **Product Search**: Search for products available for sale directly through the assistant
+- **Email Notifications**: Receive payment link to complete via email
+- **Payments**: Purchase products using fiat or crypto via Crossmint Checkout
+
+## Tech Stack
+
+- **Voice**: [11Labs](https://elevenlabs.io/docs/overview)
+- **Emails**: [Resend](https://resend.com/docs/introduction)
+- **Payments**: [Crossmint](https://docs.crossmint.com/payments/headless/guides/physical-good-purchases)
 
 ## Getting Started
 
-First, run the development server:
+First, set up your environment variables by copying the `.env.template` file:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.template .env
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, install dependencies and run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+pnpm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) and start shopping!
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about 11Labs and Crossmint APIs used in this project follow the links below:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 
+- 

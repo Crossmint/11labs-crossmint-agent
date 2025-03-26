@@ -10,15 +10,19 @@
   },
   "dependencies": {
     "@11labs/react": "^0.0.8",
+    "@fastify/formbody": "^8.0.2",
+    "@fastify/websocket": "^11.0.2",
     "@goat-sdk/adapter-eleven-labs": "^0.2.10",
     "@goat-sdk/core": "0.4.6",
     "@react-email/components": "^0.0.34",
     "@react-email/render": "1.0.5",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.2",
     "next": "15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "resend": "^4.1.2"
+    "resend": "^4.1.2",
+    "ws": "^8.18.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

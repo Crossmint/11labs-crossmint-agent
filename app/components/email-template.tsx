@@ -36,8 +36,8 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
     fiat: {
       enabled: true,
       allowedMethods: {
-        applePay: true,
-        googlePay: true,
+        applePay: false,
+        googlePay: false,
       }
     },
     defaultMethod: "fiat"
